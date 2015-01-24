@@ -1,0 +1,14 @@
+## Notes on Files
+
+There are 4 R Functions submitted:
+	1. vectorCache.R
+	2. cachemean.R
+	3. makeCacheMatrix.R
+	4. cacheSolve.R
+
+
+The functions vectorCache and cachemean work together. VectorCache generates the desired vector and stores it in a cache. The function returns a list of additional functions, one of which calculates the mean of the vector. If the mean of a particular vector has been calculated, this function also stores it's mean. 
+Use cachemean to either calculate the mean of the vector created above or to retrieve a previously calculated mean.
+
+The functions makeCacheMatrix and cache Solve work together. MakeCacheMatrix generates the desired matrix and stores it in cache. It also returns a list of functions, one of which solves the matrix (calculates it's inverse) and stores the solution in cache.
+Use cacheSolve to either solve the matrix generated previously or retrieve the solution from cache. 
